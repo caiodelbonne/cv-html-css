@@ -1,0 +1,75 @@
+body{
+    font-family: -apple-system, sans-serif;
+    text-transform: uppercase;
+    
+}
+h1{
+    font-size: 1.4rem;
+    margin: 0;
+    text-align: right;
+    font-weight: normal;
+
+}
+h4{
+    font-size: 0.7rem;
+}
+h2{
+    font-weight: normal;
+    margin: 0;
+    font-size: 1rem;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    align-content: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+    border-top: 2px solid #eee;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+li{
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    border-top: none;
+    padding: .5rem;
+    font-family: monospace;
+    color: #444;
+
+}
+a{
+    
+    cursor: pointer;
+    text-decoration: underline;
+   
+}
+.dados {
+    display: flex;
+}
+
+.github{
+    background-image:url('../img/github.png');
+    background-position: center;
+    height: 22px;
+    width: auto;
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    color: black;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+    background: #fdfdfd;
+}
