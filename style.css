@@ -1,7 +1,7 @@
 body{
     font-family: -apple-system, sans-serif;
     text-transform: uppercase;
-    
+    background-image: linear-gradient(rgba(61, 59, 65, 0.137),rgb(53, 50, 50));
 }
 h1{
     font-size: 1.4rem;
@@ -9,6 +9,9 @@ h1{
     text-align: right;
     font-weight: normal;
 
+}
+.eu{
+    color: black;
 }
 h4{
     font-size: 0.7rem;
@@ -47,14 +50,15 @@ li{
     color: #444;
 
 }
-a{
-    
+a{   
     cursor: pointer;
-    text-decoration: underline;
-   
+    text-decoration: none;
+    font-style: italic;
 }
 .dados {
     display: flex;
+    margin-top:  solid;
+   
 }
 
 .github{
@@ -66,10 +70,19 @@ a{
 }
 
 footer{
-    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
     color: black;
     font-size: .8rem;
     padding: 1rem;
     text-align: center;
-    background: #fdfdfd;
+    text-transform: inherit;
+}
+
+.email{    
+    background-image: url('../img/email.png');
+    height: 22px;
+    text-align: center;
+    align-items: center;
+    
 }
