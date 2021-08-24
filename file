@@ -1,0 +1,23 @@
+<section>
+      <samp>Experiencia</samp>  
+        <div> 
+            <p>Polistampo</p>
+            <p>auxiliar de ti</p>
+            <p>Auxiliava na manutenção de codigo e suporte tecnico a usuarios</p>
+        </div>
+
+        <div> 
+          <p>Autonomo</p>
+          <p>manutenção de computadores</p>
+          <p>Formatação , backup , instalação de software , manutenção de pequenos reparos</p>
+      </div>
+  </section>
+
+  <section>
+      <h3>Formação</h3>
+      <div>
+        <span>UNIVERSIDADE METODISTA DE SÃO PAULO</span>
+        <p>Fevereiro 2016 - Dezembro 2019</p>
+        <p>Analise e desenvolvimento de sistemas - tecnologo </p>
+      </div>
+  </section>

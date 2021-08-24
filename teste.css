@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 40px 200px 50px;
+  grid-template-areas:
+    "header header "
+    "aside content "
+    "aside footer ";
+}
+/*
+header {
+  grid-area: header;
+  background: red;
+  text-align: center;
+}
+*/
+aside {
+  grid-area: aside;
+  background: yellow;
+  text-align: center;
+}
+section {
+  grid-area: content;
+  background: green;
+  text-align: center;
+}
+footer {
+  grid-area: footer;
+  background: blue;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+.quem-sou {
+  /*
+  width: 450px; 
+  */
+  height: 980px;
+  background: #00464bd2;
+  text-align: center;
+  line-height: 2;
+}
+.foto-perfil {
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+.lado-esquerdo {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.lado-esquerdo h1 {
+  font-size: 24px;
+}
+.contato-lado-esquerdo {
+  margin-top: 90px;
+}
+.contato-titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+.skill-item {
+  text-align: center;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.contato-git,
+.contato-email {
+  display: flex;
+  /*justify-content: flex-start;
+  */
+}
+.contato-email p {
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.contato-git p,
+a {
+  margin-top: 15px;
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 3px;
+}
+
+/* javascript  .. .. . 
+[] = tudo que tiver o atrib com o nome 
+* = total 
+*/
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}

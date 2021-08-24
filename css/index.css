@@ -1,0 +1,72 @@
+body {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 86.6%;
+  grid-template-areas:
+    "quem-sou lado-direito "
+    "quem-sou rodape";
+}
+
+.lado-direito {
+  /*justify-content: start;*/
+  grid-area: lado-direito;
+  margin-left: 150px;
+  margin-top: 90px;
+  width: 50%;
+}
+.lado-direito h1 {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+.lado-direito .meto,
+.meto-curso {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+}
+
+.extra {
+  margin-top: 100px;
+}
+.extra h3 {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+
+.extra ul li {
+  line-height: 3;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+.experiencia h3 {
+  margin-top: 50px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.experiencia ul li {
+  line-height: 3;
+  font-size: 16px;
+}
+
+.experiencia .funcao {
+  font-style: italic;
+  font-size: 16px;
+}
+footer {
+  grid-area: rodape;
+  height: 70px;
+  background: black;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif, Geneva, Tahoma,
+    sans-serif;
+  line-height: 1.4;
+  font-style: italic;
+  text-transform: lowercase;
+}
