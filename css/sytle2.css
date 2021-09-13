@@ -2,22 +2,33 @@
   /*
   width: 450px; 
   */
+  display: block;
+  flex-wrap: wrap;
   height: 980px;
   background: #00464bd2;
   text-align: center;
   line-height: 2;
 }
+
+.lado-esquerdo h3,
+h4 {
+  color: #fff;
+}
 .foto-perfil {
   margin-top: 10px;
   text-align: center;
   border-radius: 50%;
+  box-shadow: 1px 2px 4px 3px rgb(61, 60, 60);
 }
 .lado-esquerdo {
+  display: block;
+  flex-wrap: wrap;
   text-transform: capitalize;
   font-size: 16px;
 }
 .lado-esquerdo h1 {
   font-size: 24px;
+  font-family: monospace;
 }
 .contato-lado-esquerdo {
   margin-top: 90px;
@@ -36,8 +47,6 @@
 .contato-git,
 .contato-email {
   display: flex;
-  /*justify-content: flex-start;
-  */
 }
 .contato-email p {
   margin-top: 15px;
@@ -50,22 +59,4 @@ a {
   color: black;
   font-weight: bold;
   padding: 10px 3px;
-}
-
-/* javascript  .. .. . 
-[] = tudo que tiver o atrib com o nome 
-* = total 
-*/
-.js [data-slide] {
-  position: relative;
-}
-.js [data-slide] > * {
-  position: absolute;
-  top: 0px;
-  opacity: 0;
-}
-.js [data-slide] > .active {
-  position: relative;
-  opacity: 1;
-  transition: opacity 500ms;
 }

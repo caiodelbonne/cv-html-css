@@ -1,0 +1,15 @@
+.lado-esquerdo {
+  text-align: center;
+  letter-spacing: 2;
+  flex-direction: column;
+
+  border: coral 3px;
+}
+.git,
+.contato-email {
+  margin-top: 25px;
+}
+.lado-esquerdo a {
+  text-decoration: none;
+  color: black;
+}

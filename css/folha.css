@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  font-size: 18px;
+  background: #faf6ed;
+}
+.folha {
+  display: grid;
+  grid-template-areas:
+    "lado-esquerdo cabecalho cabecalho "
+    "lado-esquerdo frontal lado-direito"
+    "footer footer footer";
+  grid-template-columns: 30% 60% 10%;
+}
+.cabecalho {
+  grid-area: cabecalho;
+}
+.cabecalho ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 2px;
+}
+.lado-esquerdo {
+  grid-area: lado-esquerdo;
+}
+
+.frontal {
+  grid-area: frontal;
+}
+.lado-direito {
+  grid-area: lado-direito;
+  margin-top: 70px;
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  grid-area: footer;
+  margin-top: 15px;
+  text-align: center;
+  padding: 2px;
+}
+
+/* JAVASCRIPT  */
+/* animação do DD dos cursos  */
+.animacao dd {
+  display: none;
+}
+.animacao dt::after {
+  content: "⮟";
+  margin-left: 11px;
+}
+
+.animacao dt.ativo::after {
+  content: "⮝";
+  margin-left: 10px;
+}
+.animacao dd.ativo {
+  display: block;
+  animation: slideDown 0.5s forwards;
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 400px;
+  }
+}

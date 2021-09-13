@@ -65,9 +65,8 @@ footer {
   background: black;
   color: #ffffff;
   font-size: 16px;
-  font-family: Georgia, "Times New Roman", Times, serif, Geneva, Tahoma,
-    sans-serif;
+  font-family: monospace, sans-serif;
   line-height: 1.4;
   font-style: italic;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
